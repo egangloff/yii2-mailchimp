@@ -1,0 +1,20 @@
+{
+    "name": "egangloff/yii2-mailchimp",
+    "description": "Yii2 Component for Mailchimp Api V3",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eddy Gangloff",
+            "email": "eddy.gangloff@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "egangloff\\mailchimp\\": ""
+        }
+    }
+}

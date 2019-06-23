@@ -90,5 +90,5 @@ Delete a member from a list
 ## Error Management
 
 ```
-    echo 'Status Code: ' . $mailchimp->$statuscode . ' - Status Message' . $mailchimp->$statustext;
+    echo 'Status Code: ' . $mailchimp->statuscode . ' - Status Message' . $mailchimp->statustext;
 ```

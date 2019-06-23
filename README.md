@@ -1,5 +1,5 @@
 # yii2-mailchimp
-Yii2 Component for Mailchimp Api V3
+Yii2 Component for Mailchimp Api V3 using Curl
 
 ## Installation
 
@@ -8,12 +8,14 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
+php composer.phar require --prefer-dist linslin/yii2-curl "*"
 php composer.phar require --prefer-dist egangloff/yii2-mailchimp "dev-master"
 ```
 
 or add
 
 ```
+"linslin/yii2-curl": "*",
 "egangloff/yii2-mailchimp": "dev-master"
 ```
 

@@ -90,10 +90,10 @@ class Mailchimp extends component
 
         if ($curl->errorCode === null) {
             $response = json_decode($response);
-            if($response->status == 'Subscribed')
+            if($response->status == 'subscribed')
             {
                 $this->statuscode = 200;
-                $this->statustext = 'Subscribed';
+                $this->statustext = 'subscribed';
                 return true;
             }
             else

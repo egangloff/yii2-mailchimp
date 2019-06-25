@@ -53,37 +53,37 @@ $mailchimp = new Mailchimp;
 Get all lists
 
 ```
-    Mailchimp->getLists();
+    $mailchimp->getLists();
 ```
 
 Get A specific list
 
 ```
-    Mailchimp->getLists('<listid>')
+    $mailchimp->getLists('<listid>')
 ```
 
 Get all members from a list
 
 ```
-    Mailchimp->getMembers('<listid>')
+    $mailchimp->getMembers('<listid>')
 ```
 
 Get a specific member from a list
 
 ```
-    Mailchimp->getLists('<listid>', '<memberid>')
+    $mailchimp->getLists('<listid>', '<memberid>')
 ```
 
 Add a Member to a list
 
 ```
-    Mailchimp->addMember('<listid>', <firstname>', '<lastname>', '<email>', '<phone>')
+    $mailchimp->addMember('<listid>', <firstname>', '<lastname>', '<email>', '<phone>')
 ```
 
 Delete a member from a list
 
 ```
-    Mailchimp->deleteMember('<listid>', '<memberid>')
+    $mailchimp->deleteMember('<listid>', '<memberid>')
 ```
 
 

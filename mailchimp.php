@@ -109,7 +109,7 @@ class Mailchimp extends component
         }
     }
 
-    public function deleteMembers($listid = '', $memberid = '')
+    public function deleteMember($listid = '', $memberid = '')
     {
         $this->statuscode = '';
         $this->statustext = '';
